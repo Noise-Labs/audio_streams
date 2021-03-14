@@ -41,7 +41,7 @@ public class SwiftAudioStreamsPlugin: NSObject, FlutterPlugin, FlutterStreamHand
                                              interleaved: args["interleaved"] as! Bool
                 )
             default:
-                return nil!
+                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatInt16, sampleRate: 44100, channels: 2, interleaved: true)
             }
         }
         result(nil)
