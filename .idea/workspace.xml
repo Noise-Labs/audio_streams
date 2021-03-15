@@ -1,45 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="audio_streams.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/audio_streams.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="JupyterTrust" id="94457196-1053-4094-b03a-7b1622ce138e" />
+  <component name="KonanWorkspace">
+    <executables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="r88b0lab" />
+  </component>
+  <component name="ProjectId" id="1pn75XzWAacT9Fx3ZEhrtdmG9ya" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="" />
+      <created>1615806818232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615806818232</updated>
+      <workItem from="1615806820257" duration="840000" />
+      <workItem from="1615811554566" duration="1146000" />
+      <workItem from="1615813835753" duration="134000" />
+      <workItem from="1615813985985" duration="39000" />
+      <workItem from="1615818802468" duration="1938000" />
+      <workItem from="1615821443563" duration="175000" />
+      <workItem from="1615821634318" duration="43000" />
+      <workItem from="1615821681459" duration="568000" />
+      <workItem from="1615822536386" duration="3193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="android" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="256" y="44" key="#Project_Structure" timestamp="1615821669299">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state x="256" y="44" key="#Project_Structure/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1615821669299" />
+    <state x="631" y="233" key="AndroidProcessChooserDialog" timestamp="1615821551617">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state x="631" y="233" key="AndroidProcessChooserDialog/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1615821551617" />
+    <state width="1494" height="244" key="GridCell.Tab.0.bottom" timestamp="1615822476896">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state width="1494" height="244" key="GridCell.Tab.0.bottom/0.23.1536.879@0.23.1536.879" timestamp="1615822476896" />
+    <state width="1494" height="244" key="GridCell.Tab.0.center" timestamp="1615822476895">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state width="1494" height="244" key="GridCell.Tab.0.center/0.23.1536.879@0.23.1536.879" timestamp="1615822476895" />
+    <state width="1494" height="244" key="GridCell.Tab.0.left" timestamp="1615822476895">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state width="1494" height="244" key="GridCell.Tab.0.left/0.23.1536.879@0.23.1536.879" timestamp="1615822476895" />
+    <state width="1494" height="244" key="GridCell.Tab.0.right" timestamp="1615822476896">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state width="1494" height="244" key="GridCell.Tab.0.right/0.23.1536.879@0.23.1536.879" timestamp="1615822476896" />
+    <state x="269" y="101" key="SettingsEditor" timestamp="1615821616977">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state x="269" y="101" key="SettingsEditor/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1615821616977" />
   </component>
 </project>
