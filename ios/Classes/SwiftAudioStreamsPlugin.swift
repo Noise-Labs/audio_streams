@@ -44,6 +44,12 @@ public class SwiftAudioStreamsPlugin: NSObject, FlutterPlugin, FlutterStreamHand
                 outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatInt16, sampleRate: 44100, channels: 2, interleaved: true)
             }
         }
+
+        if(call.method == "stop") {
+          engine.inputNode.removeTap(onBus: 0)
+          engine.stop()
+        }
+
         result(nil)
     }
 

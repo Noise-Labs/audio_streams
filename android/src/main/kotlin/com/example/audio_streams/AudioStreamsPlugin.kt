@@ -12,6 +12,7 @@ import io.flutter.plugin.common.*
 class AudioStreamsPlugin: MethodCallHandler {
   private val _recorder = Recorder();
   private  val   _channel:EventChannel;
+  private var _denoise = false;
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
@@ -25,7 +26,7 @@ class AudioStreamsPlugin: MethodCallHandler {
     _channel.setStreamHandler(object:EventChannel.StreamHandler{
       @RequiresApi(Build.VERSION_CODES.M)
       override fun onListen(arguments: Any?, events: EventChannel.EventSink?) {
-          _recorder.start(events);
+          _recorder.start(_denoise,events);
       }
       override fun onCancel(arguments: Any?) {
         _recorder.stop();
@@ -37,7 +38,13 @@ class AudioStreamsPlugin: MethodCallHandler {
     if (call.method == "getPlatformVersion") {
       result.success("Android ${android.os.Build.VERSION.RELEASE}")
     } else if(call.method == "initialize") {
+         val opt = call.argument<Boolean>("denoise_enabled");
+          if(opt !== null) {
+              this._denoise = opt;
+          }
         result.success(null);
+    } else if(call.method == "stop") {
+            _recorder.stop();
     } else {
       result.notImplemented()
     }

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/libs/TarsosDSP-Android-latest.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/audio_streams.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/audio_streams.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +85,11 @@
       <workItem from="1615821443563" duration="175000" />
       <workItem from="1615821634318" duration="43000" />
       <workItem from="1615821681459" duration="568000" />
-      <workItem from="1615822536386" duration="3193000" />
+      <workItem from="1615822536386" duration="6728000" />
+      <workItem from="1616053826110" duration="169000" />
+      <workItem from="1616131479034" duration="1270000" />
+      <workItem from="1616176645304" duration="1884000" />
+      <workItem from="1616180115489" duration="600000" />
     </task>
     <servers />
   </component>

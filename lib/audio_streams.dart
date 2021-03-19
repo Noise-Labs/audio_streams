@@ -157,8 +157,8 @@ class AudioController extends ValueNotifier<AudioValue> {
     } on PlatformException catch (e) {
       throw AudioControllerException(e.code, e.message);
     }
-
     _audioStreamSubscription = null;
+    await _channel.invokeMethod('stop');
   }
 
   @override
@@ -167,6 +167,7 @@ class AudioController extends ValueNotifier<AudioValue> {
       return;
     }
     _isDisposed = true;
+
     super.dispose();
   }
 }
