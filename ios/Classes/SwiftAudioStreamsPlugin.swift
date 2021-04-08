@@ -28,20 +28,20 @@ public class SwiftAudioStreamsPlugin: NSObject, FlutterPlugin, FlutterStreamHand
             }
             let args = call.arguments as! [String: Any]
             switch args["commonFormat"] as! String{
-            case "AVAudioCommonFormat.pcmFormatInt16":
-                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatInt16,
+            case "AVAudioCommonFormat.pcmFormatInt161":
+                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatFloat32,
                                              sampleRate: args["sampleRate"] as! Double,
                                              channels: args["channelCount"] as! UInt32,
                                              interleaved: args["interleaved"] as! Bool
                 )
-            case "AVAudioCommonFormat.pcmFormatInt32":
-                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatInt32,
+            case "AVAudioCommonFormat.pcmFormatInt321":
+                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatFloat32,
                                              sampleRate: args["sampleRate"] as! Double,
                                              channels: args["channelCount"] as! UInt32,
                                              interleaved: args["interleaved"] as! Bool
                 )
             default:
-                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatInt16, sampleRate: 44100, channels: 2, interleaved: true)
+                outputFormat = AVAudioFormat(commonFormat: AVAudioCommonFormat.pcmFormatFloat32, sampleRate: 44100, channels: 1, interleaved: true)
             }
         }
 
@@ -81,12 +81,12 @@ public class SwiftAudioStreamsPlugin: NSObject, FlutterPlugin, FlutterStreamHand
             assert(status != .error)
 
             if (self.outputFormat?.commonFormat == AVAudioCommonFormat.pcmFormatInt16) {
-                let values = UnsafeBufferPointer(start: convertedBuffer.int16ChannelData![0], count: Int(convertedBuffer.frameLength))
+                let values = UnsafeBufferPointer(start: convertedBuffer.floatChannelData![0], count: Int(convertedBuffer.frameLength))
                 let arr = Array(values)
                 events(arr)
             }
             else{
-                let values = UnsafeBufferPointer(start: convertedBuffer.int32ChannelData![0], count: Int(convertedBuffer.frameLength))
+                let values = UnsafeBufferPointer(start: convertedBuffer.floatChannelData![0], count: Int(convertedBuffer.frameLength))
                 let arr = Array(values)
                 events(arr)
             }

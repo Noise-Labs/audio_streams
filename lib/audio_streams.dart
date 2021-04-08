@@ -6,7 +6,7 @@ import 'package:flutter/widgets.dart';
 
 final MethodChannel _channel = const MethodChannel('audio_streams');
 
-List<int> audioData;
+List<double> audioData;
 
 enum CommonFormat { Int16, Int32 }
 
@@ -82,7 +82,7 @@ class AudioController extends ValueNotifier<AudioValue> {
   final int channelCount;
   final CommonFormat commonFormat;
 
-  Stream<List<int>> _audioStreamSubscription;
+  Stream<List<double>> _audioStreamSubscription;
 
   //Control Features
   bool isStreaming;
@@ -110,7 +110,7 @@ class AudioController extends ValueNotifier<AudioValue> {
     }
   }
 
-  Stream<List<int>> startAudioStream() {
+  Stream<List<double>> startAudioStream() {
     if (!value.isInitialized || _isDisposed) {
       throw AudioControllerException(
         'Uninitialized AudioController',
@@ -132,7 +132,7 @@ class AudioController extends ValueNotifier<AudioValue> {
     const EventChannel audioChannel = EventChannel('audio');
     _audioStreamSubscription = audioChannel
         .receiveBroadcastStream()
-        .map((dynamic convert) => List<int>.from(convert));
+        .map((dynamic convert) => List<double>.from(convert));
     return _audioStreamSubscription;
   }
   //add a completer

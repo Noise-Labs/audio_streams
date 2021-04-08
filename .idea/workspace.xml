@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/libs/TarsosDSP-Android-latest.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/TarsosDSP-Android-latest.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/audio_streams.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/audio_streams.dart" afterDir="false" />
     </list>
@@ -89,7 +82,14 @@
       <workItem from="1616053826110" duration="169000" />
       <workItem from="1616131479034" duration="1270000" />
       <workItem from="1616176645304" duration="1884000" />
-      <workItem from="1616180115489" duration="600000" />
+      <workItem from="1616180115489" duration="2075000" />
+      <workItem from="1616488756907" duration="62000" />
+      <workItem from="1616569576020" duration="29000" />
+      <workItem from="1616569986249" duration="2732000" />
+      <workItem from="1616745748697" duration="29000" />
+      <workItem from="1616745795169" duration="68000" />
+      <workItem from="1616780576129" duration="4972000" />
+      <workItem from="1617164638274" duration="597000" />
     </task>
     <servers />
   </component>
@@ -108,25 +108,33 @@
       <screen x="0" y="23" width="1536" height="879" />
     </state>
     <state x="631" y="233" key="AndroidProcessChooserDialog/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1615821551617" />
-    <state width="1494" height="244" key="GridCell.Tab.0.bottom" timestamp="1615822476896">
+    <state width="1494" height="243" key="GridCell.Tab.0.bottom" timestamp="1616745035343">
       <screen x="0" y="23" width="1536" height="879" />
     </state>
+    <state width="1494" height="243" key="GridCell.Tab.0.bottom/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1616745035343" />
     <state width="1494" height="244" key="GridCell.Tab.0.bottom/0.23.1536.879@0.23.1536.879" timestamp="1615822476896" />
-    <state width="1494" height="244" key="GridCell.Tab.0.center" timestamp="1615822476895">
+    <state width="1494" height="243" key="GridCell.Tab.0.center" timestamp="1616745035343">
       <screen x="0" y="23" width="1536" height="879" />
     </state>
+    <state width="1494" height="243" key="GridCell.Tab.0.center/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1616745035343" />
     <state width="1494" height="244" key="GridCell.Tab.0.center/0.23.1536.879@0.23.1536.879" timestamp="1615822476895" />
-    <state width="1494" height="244" key="GridCell.Tab.0.left" timestamp="1615822476895">
+    <state width="1494" height="243" key="GridCell.Tab.0.left" timestamp="1616745035343">
       <screen x="0" y="23" width="1536" height="879" />
     </state>
+    <state width="1494" height="243" key="GridCell.Tab.0.left/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1616745035343" />
     <state width="1494" height="244" key="GridCell.Tab.0.left/0.23.1536.879@0.23.1536.879" timestamp="1615822476895" />
-    <state width="1494" height="244" key="GridCell.Tab.0.right" timestamp="1615822476896">
+    <state width="1494" height="243" key="GridCell.Tab.0.right" timestamp="1616745035343">
       <screen x="0" y="23" width="1536" height="879" />
     </state>
+    <state width="1494" height="243" key="GridCell.Tab.0.right/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1616745035343" />
     <state width="1494" height="244" key="GridCell.Tab.0.right/0.23.1536.879@0.23.1536.879" timestamp="1615822476896" />
     <state x="269" y="101" key="SettingsEditor" timestamp="1615821616977">
       <screen x="0" y="23" width="1536" height="879" />
     </state>
     <state x="269" y="101" key="SettingsEditor/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1615821616977" />
+    <state x="100" y="123" width="1336" height="679" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616241151637">
+      <screen x="0" y="23" width="1536" height="879" />
+    </state>
+    <state x="100" y="123" width="1336" height="679" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1536.879/1536.63.1920.1057@0.23.1536.879" timestamp="1616241151637" />
   </component>
 </project>
