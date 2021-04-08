@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/TarsosDSP-Android-latest.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/example/audio_streams/Recorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftAudioStreamsPlugin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/audio_streams.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/audio_streams.dart" afterDir="false" />
-    </list>
+    <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +82,7 @@
       <workItem from="1616745795169" duration="68000" />
       <workItem from="1616780576129" duration="4972000" />
       <workItem from="1617164638274" duration="597000" />
+      <workItem from="1617876966253" duration="291000" />
     </task>
     <servers />
   </component>
