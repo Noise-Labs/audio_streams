@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="" />
+    <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/audio_streams/AudioStreamsPlugin.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,8 @@
       <workItem from="1616745795169" duration="68000" />
       <workItem from="1616780576129" duration="4972000" />
       <workItem from="1617164638274" duration="597000" />
-      <workItem from="1617876966253" duration="291000" />
+      <workItem from="1617876966253" duration="960000" />
+      <workItem from="1618119048507" duration="58000" />
     </task>
     <servers />
   </component>

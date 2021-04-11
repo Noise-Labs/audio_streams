@@ -45,6 +45,7 @@ class AudioStreamsPlugin: MethodCallHandler {
         result.success(null);
     } else if(call.method == "stop") {
             _recorder.stop();
+        result.success(null);
     } else {
       result.notImplemented()
     }
