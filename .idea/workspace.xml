@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0a452f-7c40-4e4d-9b8e-ca06609fcda0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       <workItem from="1621748072713" duration="13000" />
       <workItem from="1621847802949" duration="1064000" />
       <workItem from="1621848995363" duration="120000" />
-      <workItem from="1621849232761" duration="145000" />
+      <workItem from="1621849232761" duration="676000" />
     </task>
     <servers />
   </component>
